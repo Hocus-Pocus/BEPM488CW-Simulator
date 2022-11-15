@@ -1,0 +1,417 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "BPEM488 CMP/CKP Signal Conditioner"
+Date "2020-12-12"
+Rev ""
+Comp "R.Hiebert Electric"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D2
+U 1 1 5FD595F4
+P 4950 5400
+F 0 "D2" H 4950 5250 50  0000 C CNN
+F 1 "Red LED" H 4950 5550 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4950 5400 50  0001 C CNN
+F 3 "~" H 4950 5400 50  0001 C CNN
+	1    4950 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N3906 Q2
+U 1 1 5FD5A72D
+P 4000 4800
+F 0 "Q2" H 4187 4853 60  0000 L CNN
+F 1 "2N3906" H 4187 4747 60  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Wide" H 4200 5000 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 4200 5100 60  0001 L CNN
+F 4 "2N3906APCT-ND" H 4200 5200 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3906" H 4200 5300 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4200 5400 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 4200 5500 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 4200 5600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N3906/2N3906CS-ND/4806878" H 4200 5700 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS PNP 40V TO-92" H 4200 5800 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 4200 5900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4200 6000 60  0001 L CNN "Status"
+	1    4000 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5FD5D2EC
+P 4500 4800
+F 0 "R4" V 4400 4800 50  0000 C CNN
+F 1 "4.7K" V 4500 4800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4430 4800 50  0001 C CNN
+F 3 "~" H 4500 4800 50  0001 C CNN
+	1    4500 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J2
+U 1 1 5FD5DAA6
+P 6850 3600
+F 0 "J2" H 6930 3642 50  0000 L CNN
+F 1 "EBWA-03-B" H 6930 3551 50  0000 L CNN
+F 2 "BPEM488 Inputs:EBWA-03-B" H 6850 3600 50  0001 C CNN
+F 3 "~" H 6850 3600 50  0001 C CNN
+F 4 "2057-EBWA-03-B-ND" H 6850 3600 50  0001 C CNN "Digikey PN"
+	1    6850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J1
+U 1 1 5FD5E261
+P 6850 1800
+F 0 "J1" H 6930 1792 50  0000 L CNN
+F 1 "EBWA-04-B" H 6930 1701 50  0000 L CNN
+F 2 "BPEM488 Inputs:EBWA-04-B" H 6850 1800 50  0001 C CNN
+F 3 "~" H 6850 1800 50  0001 C CNN
+F 4 "2057-EBWA-04-B-ND" H 6850 1800 50  0001 C CNN "Digikey PN"
+	1    6850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+8V #PWR05
+U 1 1 5FD60732
+P 6450 1600
+F 0 "#PWR05" H 6450 1450 50  0001 C CNN
+F 1 "+8V" H 6465 1773 50  0000 C CNN
+F 2 "" H 6450 1600 50  0001 C CNN
+F 3 "" H 6450 1600 50  0001 C CNN
+	1    6450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5FD60EDC
+P 5300 5500
+F 0 "#PWR04" H 5300 5250 50  0001 C CNN
+F 1 "GND" H 5305 5327 50  0000 C CNN
+F 2 "" H 5300 5500 50  0001 C CNN
+F 3 "" H 5300 5500 50  0001 C CNN
+	1    5300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5FD612DB
+P 6150 2100
+F 0 "#FLG02" H 6150 2175 50  0001 C CNN
+F 1 "PWR_FLAG" H 6150 2273 50  0000 C CNN
+F 2 "" H 6150 2100 50  0001 C CNN
+F 3 "~" H 6150 2100 50  0001 C CNN
+	1    6150 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5FD63235
+P 4500 5100
+F 0 "R5" V 4400 5100 50  0000 C CNN
+F 1 "200R" V 4500 5100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4430 5100 50  0001 C CNN
+F 3 "~" H 4500 5100 50  0001 C CNN
+	1    4500 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5FD63E41
+P 6450 2100
+F 0 "#PWR06" H 6450 1850 50  0001 C CNN
+F 1 "GND" H 6455 1927 50  0000 C CNN
+F 2 "" H 6450 2100 50  0001 C CNN
+F 3 "" H 6450 2100 50  0001 C CNN
+	1    6450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5FD655BB
+P 6150 1600
+F 0 "#FLG01" H 6150 1675 50  0001 C CNN
+F 1 "PWR_FLAG" H 6150 1773 50  0000 C CNN
+F 2 "" H 6150 1600 50  0001 C CNN
+F 3 "~" H 6150 1600 50  0001 C CNN
+	1    6150 1600
+	1    0    0    -1  
+$EndComp
+Text Label 6550 1800 2    50   ~ 0
+CKPsignal
+Text Label 6550 1900 2    50   ~ 0
+CMPsignal
+Wire Wire Line
+	6550 1800 6650 1800
+Wire Wire Line
+	6550 1900 6650 1900
+Wire Wire Line
+	6650 1700 6450 1700
+Wire Wire Line
+	6150 1700 6150 1600
+Wire Wire Line
+	6450 1600 6450 1700
+Connection ~ 6450 1700
+Wire Wire Line
+	6450 1700 6150 1700
+Wire Wire Line
+	6650 2000 6450 2000
+Wire Wire Line
+	6150 2000 6150 2100
+Wire Wire Line
+	6450 2100 6450 2000
+Connection ~ 6450 2000
+Wire Wire Line
+	6450 2000 6150 2000
+$Comp
+L power:+8V #PWR07
+U 1 1 5FD69581
+P 6550 3400
+F 0 "#PWR07" H 6550 3250 50  0001 C CNN
+F 1 "+8V" H 6565 3573 50  0000 C CNN
+F 2 "" H 6550 3400 50  0001 C CNN
+F 3 "" H 6550 3400 50  0001 C CNN
+	1    6550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5FD69FA9
+P 6550 3800
+F 0 "#PWR08" H 6550 3550 50  0001 C CNN
+F 1 "GND" H 6555 3627 50  0000 C CNN
+F 2 "" H 6550 3800 50  0001 C CNN
+F 3 "" H 6550 3800 50  0001 C CNN
+	1    6550 3800
+	1    0    0    -1  
+$EndComp
+Text Label 6550 3600 2    50   ~ 0
+CMPsensor
+Wire Wire Line
+	6650 3700 6550 3700
+Wire Wire Line
+	6550 3700 6550 3800
+Wire Wire Line
+	6550 3400 6550 3500
+Wire Wire Line
+	6550 3500 6650 3500
+Wire Wire Line
+	6550 3600 6650 3600
+$Comp
+L Connector:Screw_Terminal_01x03 J3
+U 1 1 5FD70122
+P 6900 4950
+F 0 "J3" H 6980 4992 50  0000 L CNN
+F 1 "EBWA-03-B" H 6980 4901 50  0000 L CNN
+F 2 "BPEM488 Inputs:EBWA-03-B" H 6900 4950 50  0001 C CNN
+F 3 "~" H 6900 4950 50  0001 C CNN
+	1    6900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+8V #PWR09
+U 1 1 5FD70128
+P 6600 4750
+F 0 "#PWR09" H 6600 4600 50  0001 C CNN
+F 1 "+8V" H 6615 4923 50  0000 C CNN
+F 2 "" H 6600 4750 50  0001 C CNN
+F 3 "" H 6600 4750 50  0001 C CNN
+	1    6600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5FD7012E
+P 6600 5150
+F 0 "#PWR010" H 6600 4900 50  0001 C CNN
+F 1 "GND" H 6605 4977 50  0000 C CNN
+F 2 "" H 6600 5150 50  0001 C CNN
+F 3 "" H 6600 5150 50  0001 C CNN
+	1    6600 5150
+	1    0    0    -1  
+$EndComp
+Text Label 6600 4950 2    50   ~ 0
+CKPsensor
+Wire Wire Line
+	6700 5050 6600 5050
+Wire Wire Line
+	6600 5050 6600 5150
+Wire Wire Line
+	6600 4750 6600 4850
+Wire Wire Line
+	6600 4850 6700 4850
+Wire Wire Line
+	6600 4950 6700 4950
+$Comp
+L power:+8V #PWR02
+U 1 1 5FD72873
+P 3900 4500
+F 0 "#PWR02" H 3900 4350 50  0001 C CNN
+F 1 "+8V" H 3915 4673 50  0000 C CNN
+F 2 "" H 3900 4500 50  0001 C CNN
+F 3 "" H 3900 4500 50  0001 C CNN
+	1    3900 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5100 4350 5100
+Wire Wire Line
+	4200 4800 4350 4800
+Wire Wire Line
+	3900 4600 3900 4500
+Wire Wire Line
+	4650 4800 4800 4800
+Wire Wire Line
+	4650 5100 4800 5100
+Text Label 4800 4800 0    50   ~ 0
+CKPsensor
+Text Label 4800 5100 0    50   ~ 0
+CKPsignal
+$Comp
+L Device:R R6
+U 1 1 5FD75785
+P 4500 5400
+F 0 "R6" V 4400 5400 50  0000 C CNN
+F 1 "1K" V 4500 5400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4430 5400 50  0001 C CNN
+F 3 "~" H 4500 5400 50  0001 C CNN
+	1    4500 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 5100 3900 5400
+Wire Wire Line
+	3900 5400 4350 5400
+Wire Wire Line
+	4650 5400 4800 5400
+Wire Wire Line
+	5100 5400 5300 5400
+Wire Wire Line
+	5300 5400 5300 5500
+Wire Wire Line
+	3900 5000 3900 5100
+Connection ~ 3900 5100
+$Comp
+L Device:LED D1
+U 1 1 5FD83192
+P 4900 3900
+F 0 "D1" H 4900 3750 50  0000 C CNN
+F 1 "Green LED" H 4900 4050 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4900 3900 50  0001 C CNN
+F 3 "~" H 4900 3900 50  0001 C CNN
+F 4 "VA0L-3MDE2-ND" H 4900 3900 50  0001 C CNN "Digikey PN"
+	1    4900 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N3906 Q1
+U 1 1 5FD831A1
+P 3950 3300
+F 0 "Q1" H 4137 3353 60  0000 L CNN
+F 1 "2N3906" H 4137 3247 60  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Wide" H 4150 3500 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 4150 3600 60  0001 L CNN
+F 4 "2N3906APCT-ND" H 4150 3700 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3906" H 4150 3800 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 4150 3900 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 4150 4000 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 4150 4100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N3906/2N3906CS-ND/4806878" H 4150 4200 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS PNP 40V TO-92" H 4150 4300 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 4150 4400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4150 4500 60  0001 L CNN "Status"
+	1    3950 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FD831A7
+P 4450 3300
+F 0 "R1" V 4350 3300 50  0000 C CNN
+F 1 "4.7K" V 4450 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4380 3300 50  0001 C CNN
+F 3 "~" H 4450 3300 50  0001 C CNN
+F 4 "" V 4450 3300 50  0001 C CNN "Digikey PN"
+	1    4450 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5FD831AD
+P 5250 4000
+F 0 "#PWR03" H 5250 3750 50  0001 C CNN
+F 1 "GND" H 5255 3827 50  0000 C CNN
+F 2 "" H 5250 4000 50  0001 C CNN
+F 3 "" H 5250 4000 50  0001 C CNN
+	1    5250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FD831B3
+P 4450 3600
+F 0 "R2" V 4350 3600 50  0000 C CNN
+F 1 "200R" V 4450 3600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4380 3600 50  0001 C CNN
+F 3 "~" H 4450 3600 50  0001 C CNN
+	1    4450 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+8V #PWR01
+U 1 1 5FD831B9
+P 3850 3000
+F 0 "#PWR01" H 3850 2850 50  0001 C CNN
+F 1 "+8V" H 3865 3173 50  0000 C CNN
+F 2 "" H 3850 3000 50  0001 C CNN
+F 3 "" H 3850 3000 50  0001 C CNN
+	1    3850 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3600 4300 3600
+Wire Wire Line
+	4150 3300 4300 3300
+Wire Wire Line
+	3850 3100 3850 3000
+Wire Wire Line
+	4600 3300 4750 3300
+Wire Wire Line
+	4600 3600 4750 3600
+Text Label 4750 3300 0    50   ~ 0
+CMPsensor
+Text Label 4750 3600 0    50   ~ 0
+CMPsignal
+$Comp
+L Device:R R3
+U 1 1 5FD831C6
+P 4450 3900
+F 0 "R3" V 4350 3900 50  0000 C CNN
+F 1 "1K" V 4450 3900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4380 3900 50  0001 C CNN
+F 3 "~" H 4450 3900 50  0001 C CNN
+	1    4450 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 3600 3850 3900
+Wire Wire Line
+	3850 3900 4300 3900
+Wire Wire Line
+	4600 3900 4750 3900
+Wire Wire Line
+	5050 3900 5250 3900
+Wire Wire Line
+	5250 3900 5250 4000
+Wire Wire Line
+	3850 3500 3850 3600
+Connection ~ 3850 3600
+$EndSCHEMATC
