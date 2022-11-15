@@ -1,0 +1,10 @@
+Plot file "C:\Users\angel\Documents\KiCad Projects\Test Engine Breakout Board\Test Engine Breakout Board-F_Cu.gbr" created.
+Plot file "C:\Users\angel\Documents\KiCad Projects\Test Engine Breakout Board\Test Engine Breakout Board-B_Cu.gbr" created.
+Plot file "C:\Users\angel\Documents\KiCad Projects\Test Engine Breakout Board\Test Engine Breakout Board-F_Paste.gbr" created.
+Plot file "C:\Users\angel\Documents\KiCad Projects\Test Engine Breakout Board\Test Engine Breakout Board-B_Paste.gbr" created.
+Plot file "C:\Users\angel\Documents\KiCad Projects\Test Engine Breakout Board\Test Engine Breakout Board-F_SilkS.gbr" created.
+Plot file "C:\Users\angel\Documents\KiCad Projects\Test Engine Breakout Board\Test Engine Breakout Board-B_SilkS.gbr" created.
+Plot file "C:\Users\angel\Documents\KiCad Projects\Test Engine Breakout Board\Test Engine Breakout Board-F_Mask.gbr" created.
+Plot file "C:\Users\angel\Documents\KiCad Projects\Test Engine Breakout Board\Test Engine Breakout Board-B_Mask.gbr" created.
+Plot file "C:\Users\angel\Documents\KiCad Projects\Test Engine Breakout Board\Test Engine Breakout Board-Edge_Cuts.gbr" created.
+Create Gerber job file “C:\Users\angel\Documents\KiCad Projects\Test Engine Breakout Board\Test Engine Breakout Board-job.gbrjob”

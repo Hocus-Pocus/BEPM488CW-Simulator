@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Test Engine Breakout Board")(type KiCad)(uri "${KIPRJMOD}/Test Engine Breakout Board.pretty")(options "")(descr ""))
+)
