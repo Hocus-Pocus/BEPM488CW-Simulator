@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Idle-Air-Stepper-Controller-rescue)(type Legacy)(uri "${KIPRJMOD}/Idle Air Stepper Controller-rescue.lib")(options "")(descr ""))
+)
