@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPX4115AP
+D Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, SO package
+K absolute pressure sensor
+F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
+$ENDCMP
+#
+$CMP MPXAZ6115A
+D Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, media resistant gel, SO package
+K absolute pressure sensor
+F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
+$ENDCMP
+#
+$CMP MPXH6115A
+D Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, SSO package
+K absolute pressure sensor
+F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
+$ENDCMP
+#
+$CMP MPXHZ6115A
+D Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, media resistant gel, SSO package
+K absolute pressure sensor
+F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
+$ENDCMP
+#
+#End Doc Library

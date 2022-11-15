@@ -1,0 +1,10 @@
+Plot file "C:\Users\angel\Dropbox\My PC (Backup-PC)\Documents\KiCad Projects\MPX4115AP Adapter\MPX4115AP Adapter-F_Cu.gbr" created.
+Plot file "C:\Users\angel\Dropbox\My PC (Backup-PC)\Documents\KiCad Projects\MPX4115AP Adapter\MPX4115AP Adapter-B_Cu.gbr" created.
+Plot file "C:\Users\angel\Dropbox\My PC (Backup-PC)\Documents\KiCad Projects\MPX4115AP Adapter\MPX4115AP Adapter-F_Paste.gbr" created.
+Plot file "C:\Users\angel\Dropbox\My PC (Backup-PC)\Documents\KiCad Projects\MPX4115AP Adapter\MPX4115AP Adapter-B_Paste.gbr" created.
+Plot file "C:\Users\angel\Dropbox\My PC (Backup-PC)\Documents\KiCad Projects\MPX4115AP Adapter\MPX4115AP Adapter-F_SilkS.gbr" created.
+Plot file "C:\Users\angel\Dropbox\My PC (Backup-PC)\Documents\KiCad Projects\MPX4115AP Adapter\MPX4115AP Adapter-B_SilkS.gbr" created.
+Plot file "C:\Users\angel\Dropbox\My PC (Backup-PC)\Documents\KiCad Projects\MPX4115AP Adapter\MPX4115AP Adapter-F_Mask.gbr" created.
+Plot file "C:\Users\angel\Dropbox\My PC (Backup-PC)\Documents\KiCad Projects\MPX4115AP Adapter\MPX4115AP Adapter-B_Mask.gbr" created.
+Plot file "C:\Users\angel\Dropbox\My PC (Backup-PC)\Documents\KiCad Projects\MPX4115AP Adapter\MPX4115AP Adapter-Edge_Cuts.gbr" created.
+Create Gerber job file “C:\Users\angel\Dropbox\My PC (Backup-PC)\Documents\KiCad Projects\MPX4115AP Adapter\MPX4115AP Adapter-job.gbrjob”
